@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  font-family: "Linux Libertine", Georgia, Times, serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

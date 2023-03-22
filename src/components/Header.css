@@ -1,0 +1,75 @@
+#input {
+  /* border-radius: 36px; */
+  width: 390px;
+  max-width: 90vw;
+  height: 41px;
+  overflow: hidden;
+  font-size: 24px;
+  margin: 4px;
+  font-weight: 200;
+  padding-left: 15px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  outline: none;
+}
+#input:focus {
+  border: 1px solid rgb(138, 138, 138);
+}
+hr {
+  width: 1000px;
+  margin-top: 30px;
+}
+h1 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+h5 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+#logo {
+  width: 390px;
+  max-width: 80vw;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.suggestion {
+  background: rgb(248, 248, 248);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 4px;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.suggestion:hover,
+.suggestion:hover #sugg {
+  background-color: rgb(184, 184, 184);
+  color: white;
+}
+#sugg {
+  margin-bottom: 5px;
+  /* border: 1px solid black; */
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.container-two {
+  margin: auto;
+  width: 390px;
+  max-width: 90vw;
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
