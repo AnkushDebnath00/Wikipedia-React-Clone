@@ -23,6 +23,8 @@ hr {
 h1 {
   margin-top: 100px;
   margin-bottom: 10px;
+  font-size: 2.3rem;
+  font-weight: 400;
 }
 h5 {
   margin-top: 0;
@@ -47,7 +49,7 @@ h5 {
 }
 .suggestion:hover,
 .suggestion:hover #sugg {
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(143, 143, 143);
   color: white;
 }
 #sugg {
